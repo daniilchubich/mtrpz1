@@ -1,20 +1,6 @@
-**bold**  _italiiic_
+#Лабораторна робота №1#
 
-`monospaced`
+Для запуску програми введіть в консолі >>>python3 <шлях до файлу>, 
+далі треба ввести шлях до файлу .MD й програма створить для вас HTML файл!
 
-```
-Preformatted text **He He**
-rette
-```
-
-**`hghg`**
-
-Paragraph1. Lorem Ipsum Dolor Sit Amet.
-This is still paragraph 1.
-
-And after a blank line this is paragraph 2.
-Lorem ipsum dolor sit amet 
-consectetur adipisicing elit. 
-
-Fugit ad repudiandae deleniti recusandae 
-odit corrupti pariatur provident repellat fugiat minima.
+З повагою, Чубич Даніїл ІМ-21
