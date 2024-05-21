@@ -23,3 +23,11 @@ jobs:
     - name: Run tests
       run: |
         pytest
+        - name: Run tests
+        run: |
+          pytest --maxfail=1 --disable-warnings -q
+        continue-on-error: true
+  
+    - name: Show pytest logs
+      if: failure()
+      run: cat pytest.log
