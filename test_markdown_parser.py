@@ -24,5 +24,6 @@ def test_apply_bold():
 def test_apply_italic():
     assert apply_italic("This is _italic_ text.") == "This is <i>italic</i> text."
 
+
 def test_apply_monospace():
     assert apply_monospace("This is `monospace` text.") == "This is <tt>monospace</tt> text."
