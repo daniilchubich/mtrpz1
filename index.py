@@ -63,7 +63,7 @@ def apply_monospace(text):
     return text
 
 def main():
-    print("Введіть текст у форматі Markdown (натисніть Ctrl + D або Ctrl + Z після введення для завершення):")
+    print("Введіть назву файлу з контентом у форматі Markdown:")
     markdown_input = []
     while True:
         try:
